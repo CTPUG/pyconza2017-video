@@ -1,0 +1,8 @@
+---
+room_name: orange
+
+blackmagic_sources:
+- card: 0
+  connection: SDI
+  audio: true
+  mode: 17

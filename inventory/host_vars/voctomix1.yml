@@ -1,0 +1,8 @@
+---
+room_name: congo
+
+blackmagic_sources:
+- card: 0
+  connection: SDI
+  audio: true
+  mode: 17
