@@ -8,6 +8,7 @@ show: pyconza2017
 time_zone: Africa/Johannesburg
 
 domain: video.pyconza
+dhcp_range: 10.17.0.128,10.17.0.254,6h
 
 distro: Ubuntu
 debian_version: xenial
@@ -48,17 +49,33 @@ sources:
 staticips:
   hosts:
   - hostname: gw
-    ip: 10.0.0.1
+    mac: 2c:41:38:92:47:9e
+    ip: 10.17.0.1
   - hostname: voctomix1
-    ip: 10.0.0.10
+    mac: 3c:d9:2b:79:b1:1f
+    ip: 10.17.0.10
   - hostname: odroid1
-    ip: 10.0.0.11
+    mac: 00:1e:06:33:5a:36
+    ip: 10.17.0.11
   - hostname: voctomix2
-    ip: 10.0.0.20
+    mac: 2c:41:38:92:47:a4
+    ip: 10.17.0.20
   - hostname: odroid2
-    ip: 10.0.0.21
+    mac: 00:1e:06:33:59:9a
+    ip: 10.17.0.21
   - hostname: voctomix3
-    ip: 10.0.0.30
+    mac: 3c:d9:2b:79:b1:16
+    ip: 10.17.0.30
   - hostname: odroid3
-    ip: 10.0.0.31
-  gateway: 10.0.0.1
+    mac: 00:1e:06:33:c8:6c
+    ip: 10.17.0.31
+  - hostname: odroid4
+    mac: 00:1e:06:33:81:a0
+    ip: 10.17.0.41
+  gateway: 10.17.0.1
+
+eth_local_ip_address: 10.17.0.1
+eth_local_ip_netmask: 24
+eth_local_ip_gateway: 10.17.0.1
+eth_local_mac_address: 2c:41:38:92:47:9e
+eth_uplink_mac_address: 8a:ce:4c:ff:ae:83
