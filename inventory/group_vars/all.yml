@@ -73,9 +73,3 @@ staticips:
     mac: 00:1e:06:33:81:a0
     ip: 10.17.0.41
   gateway: 10.17.0.1
-
-eth_local_ip_address: 10.17.0.1
-eth_local_ip_netmask: 24
-eth_local_ip_gateway: 10.17.0.1
-eth_local_mac_address: 2c:41:38:92:47:9e
-eth_uplink_mac_address: 8a:ce:4c:ff:ae:83
