@@ -1,4 +1,5 @@
 ---
+distro: Debian
 voctomix:
   host: 10.17.0.20
   port: 10001
