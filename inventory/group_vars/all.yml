@@ -85,3 +85,8 @@ staticips:
     mac: 00:1e:06:33:81:a0
     ip: 10.17.0.41
   gateway: 10.17.0.1
+
+voctomix:
+  display_system: gl
+  framerate: 25
+  loop_url: http://gw/loop.tar
