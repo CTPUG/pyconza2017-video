@@ -90,3 +90,8 @@ voctomix:
   display_system: gl
   framerate: 25
   loop_url: http://gw/loop.tar
+
+rsync_excludes: []
+rsync_sshopts: null
+storage_username: videoteam
+nfs_server: gw
