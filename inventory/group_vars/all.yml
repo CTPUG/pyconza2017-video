@@ -49,7 +49,7 @@ streaming:
   hq_config:
     video_bitrate: 1000 # kbps
     audio_bitrate: 96000 # bps
-    keyframe_period: 60 # seconds
+    keyframe_period: 100
 
 serial_terminal:
 - cu
